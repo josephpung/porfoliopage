@@ -1,0 +1,8 @@
+{
+  "name": "portfoliopage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/josephpung/portfoliopage.git",
+  "author": "josephpung <goldenpummel@live.com>",
+  "license": "MIT"
+}
