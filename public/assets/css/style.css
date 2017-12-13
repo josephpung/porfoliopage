@@ -1,0 +1,5 @@
+body {
+  background-color: black !important;
+}
+
+.navbar-fixed {position: absolute;z-index:999999999;}

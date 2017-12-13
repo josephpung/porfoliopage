@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/josephpung/portfoliopage.git",
   "author": "josephpung <goldenpummel@live.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "materialize-css": "^0.100.2",
+    "nodemon": "^1.12.6"
+  }
 }
