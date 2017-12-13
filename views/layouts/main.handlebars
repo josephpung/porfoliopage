@@ -4,23 +4,31 @@
     <meta charset="utf-8">
     <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
+      <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
       <link type="text/css" rel="stylesheet" href="/assets/css/materialize.css"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
-    <title>Hello</title>
+    <title>Joseph Pung</title>
   </head>
   <body class="black">
-    {{> navbar }}
-    <div class="container">
-      {{{body}}}
+      <div id="particles-js"></div>
+        {{> navbar }}
+        <div class="parallax-container parallaxLong">
+          <div class="parallax container center-align introDiv">  {{>intro}}</div>
+        </div>
+        <div class="parallax-container parallaxLong">
+          <div class="container">
+        {{{body}}}
+          </div>
+        </div>
+          <div class="parallax-container parallaxShort">
+            <div id="one" class="parallax blue scrollspy"></div>
+          </div>
 
-    </div>
-    <!--Import jQuery before materialize.js-->
-    <div id="particles-js"></div>
-
-    <script src="/assets/js/particles.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+      <script src="/assets/js/particles.js"></script>
+      <script src="https://use.fontawesome.com/ebe8d30922.js"></script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="/assets/js/materialize.js"></script>
       <script src="/assets/js/script.js"></script>

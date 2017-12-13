@@ -13,6 +13,9 @@ app.set('view engine', 'handlebars')
 // ====== Set up path
 app.use(express.static(path.join(__dirname, 'public')))
 
+
+
+
 app.get("/", (req,res)=>{
   res.render("mainviews/home")
 })

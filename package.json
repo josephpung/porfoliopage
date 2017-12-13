@@ -13,6 +13,7 @@
     "express-handlebars": "^3.0.0",
     "materialize-css": "^0.100.2",
     "nodemon": "^1.12.6",
-    "particles.js": "^2.0.0"
+    "particles.js": "^2.0.0",
+    "typed.js": "^2.0.6"
   }
 }
