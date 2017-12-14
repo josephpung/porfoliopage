@@ -17,14 +17,15 @@
         <div class="parallax-container parallaxLong">
           <div class="parallax container center-align introDiv">  {{>intro}}</div>
         </div>
-        <div class="parallax-container parallaxLong">
-          <div class="container">
+        <div id="skills" class="parallax-container parallaxLong scrollspy">
+        <div class="container">
         {{{body}}}
-          </div>
         </div>
-          <div class="parallax-container parallaxShort">
-            <div id="one" class="parallax scrollspy">{{>portfolio}}</div>
-          </div>
+        </div>
+        <div id="portfolio" class="scrollspy">
+        {{>portfolio}}
+      </div>
+
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
       <script src="/assets/js/particles.js"></script>
@@ -32,5 +33,9 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="/assets/js/materialize.js"></script>
       <script src="/assets/js/script.js"></script>
+
   </body>
+  <footer class="footerCustom">
+    {{>footer}}
+  </footer>
 </html>

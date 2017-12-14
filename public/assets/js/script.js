@@ -16,9 +16,10 @@ $(document).ready(function(){
         .pauseFor(500)
         .deleteChars(17)
         .typeString("I'm a full stack web developer!")
+        .pauseFor(1000)
         .start()
 
     $(".button-collapse").sideNav()
     $('.scrollspy').scrollSpy()
-    
+
  })
