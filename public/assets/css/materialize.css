@@ -5353,7 +5353,7 @@ small {
 
 .btn:focus, .btn-large:focus,
 .btn-floating:focus {
-  background-color: #1d7d74;
+  background-color: #00fdd9;
 }
 
 .btn, .btn-large {
@@ -5381,7 +5381,7 @@ small {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #00fdd9;
   border-radius: 50%;
   -webkit-transition: .3s;
   transition: .3s;

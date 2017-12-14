@@ -14,7 +14,7 @@
   <body class="black">
       <div id="particles-js"></div>
         {{> navbar }}
-        <div class="parallax-container parallaxLong">
+        <div id="intro" class="parallax-container parallaxLong scrollspy">
           <div class="parallax container center-align introDiv">  {{>intro}}</div>
         </div>
         <div id="skills" class="parallax-container parallaxLong scrollspy">
@@ -26,6 +26,11 @@
         {{>portfolio}}
       </div>
       <br><br><br><br><br>
+      <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large " href="#intro">
+      <i class="material-icons black-text">keyboard_arrow_up</i>
+    </a>
+  </div>
 
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
